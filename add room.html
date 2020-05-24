@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>new room</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+      <style media="screen">
+        form{
+          background: rgba(255, 255, 255, 0.8);
+          margin: 20px;
+          font-size: 1.5em;
+          diplay: flex;
+          align-items: center;
+        }
+      </style>
+    </head>
+    <body>
+      <nav class="navigators d-flex justify-content-start">
+        <a href="index.html">Home Page</a>
+        <a href="add room.html" class="navigators">add a room</a>
+        <a href="Gallery.html">Gallery</a>
+      </nav>
+      <header>
+        <p>New Room<p>
+      </header>
+      <form method="GET">
+        Escape Room Name: <input type="text" name="name" required><br><br>
+        City: <input type="text" name="city"><br><br>
+        How many people: <input type="number" name="people_number" value="2" min:"2"><br><br>
+        Date: <input type="date" name="date"><br><br>
+        Rate the room: (from 1 to 5) 1<input type="range" name="rating" min=1 max=5 value="3">5<br>
+        when:
+        <ol>
+          <li>Waste of money</li>
+          <li>Don't recomend</li>
+          <li>Was fine</li>
+          <li>Good one</li>
+          <li>Was ausome!</li>
+        </ol><br>
+        Who were you with? <br><br>
+        <input type="radio" name="partners" value="friends">friends<br>
+        <input type="radio" name="partners" value="family">family<br>
+        <input type="radio" name="partners" value="couple">  boyfriend/ girlfriend<br>
+        <input type="radio" name="partners" value="other">other<br><br>
+        Why did you go?<br>
+        <select name:"visit_reason">
+        <option value="for fun">for fun!</option>
+        <option value="for birthday">for birthday</option>
+        <option value="forced">was forced to</option>
+        <option value="I was near by">I was near by</option>
+        <option value="other reason">other reason</option>
+        </select><br><br>
+        includes an actor?<input type="checkbox" name="actor"><br><br>
+        Your opinion and memories:<br>
+        <textarea name="roomm story" rows="10" cols="100"></textarea>><br><br>
+        Your picture: <input type="file" name="picture" type="<picture></picture>"><br><br>
+        <input type="submit" value="I'm done!">
+        <input type="reset" value="reset">
+      </form><br>
+    </body>
+</html>

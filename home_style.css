@@ -1,0 +1,70 @@
+body{
+    background: url(esc2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main-page{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+}
+
+.cover{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.titlepage{
+  font-size: 9vw;
+  background: rgba(255, 0, 0, 0.6);
+  text-align: center;
+  width: 100%;
+  padding: 30px 0px;
+}
+/*@media only screen and (max-width: 1335px) {
+    .titlepage{
+        font-size: 7em;}
+      }
+@media only screen and (max-width: 1040px) {
+      .titlepage{
+          font-size: 5em;}
+        }*/
+@media only screen and (max-width: 450px) {
+      .titlepage{
+          padding: 2px 0px;}
+        }
+
+
+.container{
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  text-decoration: none;
+  border-radius: 150px;
+}
+.btn-primary{
+  background-color: rgba(255, 0, 0, 0.8);
+  border-color: rgba(255, 0, 0, 0.8);
+}
+
+.btn-primary:hover, .btn-primary:visited{
+  background-color: rgba(220, 0, 0, 0.8);
+  border:2px solid rgba(220, 0, 0, 0.8);
+}
+.btn-xl{
+  padding: 1rem 2rem;

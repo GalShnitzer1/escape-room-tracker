@@ -1,0 +1,23 @@
+
+p{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 8em;
+  background: rgba(193, 66, 66, 0.5);
+}
+.pictures{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+img{
+  width: 400px;
+  height: 300px;
+  margin: 30px;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+img:hover{
+  transform: scale(1.3);
+}

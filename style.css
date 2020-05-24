@@ -1,0 +1,23 @@
+*{
+  font-family: 'Indie Flower', cursive;
+}
+body{
+  background: url(board.jpg);
+  background-size: cover;
+  margin:0px;
+}
+.navigators a:link, .navigators a:visited{
+  display: inline-block;
+  text-decoration: none;
+  text-align: left;
+  font-size: 1.5em;
+  color: black;
+  border: 3px double #C14242;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-size: 40p 70px;
+  margin: 2px;
+  transition: all 0.5s;
+}
+.navigators a:hover{
+  transform: scale(0.9);
+}
